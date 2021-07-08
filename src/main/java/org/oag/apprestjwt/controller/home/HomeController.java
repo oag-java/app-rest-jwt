@@ -1,4 +1,4 @@
-package org.oag.apprestjwt.controller;
+package org.oag.apprestjwt.controller.home;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
