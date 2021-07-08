@@ -8,7 +8,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
                 .authorizeRequests()
-                .antMatchers("/api/home").permitAll()
+                .antMatchers("/api/home","/api/report").permitAll()
                 .anyRequest().authenticated();
     }
 }
